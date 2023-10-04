@@ -19,3 +19,7 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# Application classes from libraries that will be serialized/deserialized over Gson
+-keep class com.falcon.simbindingsample.BindingStatusResponse { *; }
+-keep class com.falcon.simbindingsample.DeviceBindingResponse { *; }
